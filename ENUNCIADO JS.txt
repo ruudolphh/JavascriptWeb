@@ -1,0 +1,28 @@
+-Formulario de Contacto Interactivo
+	X-Crea un formulario de contacto.
+	-Debe adaptarse a diferentes tipos de resoluciones de pantalla.
+	X-Valida todos los campos donde sea necesario para garantizar la correcta entrada de datos antes de enviar el formulario.
+
+-Scripts. Tienes que hacer al menos un script de cada categoría. SI haces más se valorará positivamente.
+	-Carga dinámica de contenido:
+		X-Mostrar/ocultar informaciones que inicialmente estaban ocultas/visibles.
+	
+	-Notificaciones emergentes:
+		-Crea notificaciones emergentes para proporcionarle retroalimentación al usuario.
+
+	-Encuestas/Valoraciones Interactivas:
+		-Agrega encuestas o valoraciones interactivas para recopilar la retroalimentación de los usuarios.
+		-El resultado de las encuestas/valoraciones, deben mostrarse en la web, integrándolo como nuevos elementos.
+	
+	-Cambios de estilo:
+		-Permitir cambiar algunos de los estilos iniciales de la web por unos diferentes (por ejemplo, proponer el cambio de estilo del tema de la página web).
+
+	-Imágenes. Puedes elegir una de las siguientes opciones o proponer alguna idea propia relacionada con el tratamiento de imágenes con JavaScript:
+		-Carrusel de imágenes que permita a los usuarios navegar de forma intuitiva entre varias imágenes.
+		-Visor de imágenes emergente que muestre las imágenes a tamaño completo al hacer clic en las miniaturas.
+		-Galería interactiva de imágenes que muestre detalles adicionales al pasar el cursor sobre las imágenes.
+
+	-Documentación. Completa la documentación que tienes en tu repositorio ("README.md")
+
+		-Si la página ha sido elaborada por dos personas, debe detallarse y explicarse la distribución de las tareas llevadas a cabo por cada miembro del grupo, destacando las responsabilidades específicas, contribuciones individuales y el trabajo conjunto.
+		-Se debe añadir un apartado donde se explique la interactividad de la página.

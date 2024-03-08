@@ -1,0 +1,319 @@
+*{  
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+}
+
+body{
+	  background-color:rgba(255,249,239,1.00);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.27);
+	width: 100%;
+	height: 80px;	
+  z-index: 1;
+}
+
+a{  
+  font-size: 17px!important;
+}
+
+.oculto{
+  display: none;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header > i{
+    color: white;
+    font-size: 1.0vw;
+}
+
+.header-data {
+    background-color: black;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.header-data > a{
+	font-family: "HelveticaBlk";
+	color: white;
+	font-size: 15px;
+	
+	margin: auto;
+	text-decoration: none; /* Quita el subrayado de las palabras del menu*/
+}
+
+.header-data > a:hover{
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 1em;
+}
+
+footer{
+  position:fixed;
+  background-color: rgba(0, 0, 0, 0.27);
+  height: 89px;
+  margin-top: 5vw;
+  bottom: 0;
+}
+
+.central-img {
+  display: flex; 
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+  .central-img > img {    
+    max-width: 30%;
+    min-width: 300px;
+    height: auto;
+
+}
+
+.gallery {
+    display: flex; /* Los elementos dentro del elemento con esta clase se van a 
+    organizar en una fila de manera flaxible */
+    flex-wrap: wrap; /* Crea mas lineas cuando los elementos no tienen suficiente espacio en 
+    la pantalla */
+    justify-content: space-around; /* Distribuye uniformemente de manera orizontal y añade espacio entre ellos
+    y al contenedor */
+    padding: 20px;
+    padding-bottom: 89px;
+    padding-top: 89px;
+}
+
+  .gallery img {
+    
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: -5px 10px 10px rgba(93, 95, 95, 0.5); /* Sombreado de las imagenes de la galeria
+    primer num: desplazamiento orizontal, segundo num: desplazamiento vertical, 
+    tercer num: tamaño de la sombra
+    Dentro del rgba: rgb es el color, (a) canal alpha= transparencia */
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; /* Tiempo en que tarda en hacer la transicion*/
+  }
+
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+
+/* Tamaño en la galeria para los iconos de las redes sociales */
+.socialmedia {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  padding: 20px;
+  margin-bottom: 89px;
+}
+
+.socialmedia a i {
+  font-size: 500%; /* Tamaño deseado de los íconos */
+  max-width: 300px; /* Máximo ancho de los íconos */
+  height: auto;
+  border-radius: 70px;
+  box-shadow: -5px 10px 20px rgba(125, 125, 125, 0.5); /* Sombra de los íconos */
+  margin: 15px;
+  transition: transform 0.3s ease-in-out; /* Transición al hacer hover */
+  color: black;
+}
+
+.socialmedia a i:hover {
+  transform: scale(1.1); /* Efecto de escala al hacer hover */
+}
+
+.contacto {
+  font-size: 250%;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  padding: 20px;
+  height: 500%;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 25px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*------Boton-----*/
+.button-15 {
+  margin-top: 10px;
+  background-image: linear-gradient(#96989a, #000000);
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 10px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-15:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.button-15:hover {
+  background-image: linear-gradient(#000000, #96989a);
+  border-color: gray;
+  text-decoration: none;
+}
+
+.button-15:active {
+  background-image: linear-gradient(#9b9b9b, #606060);
+  border-color: gray;
+  outline: none;
+}
+
+.button-15:focus {
+  box-shadow: rgba(107, 107, 107, 0.5) 0 0 0 3px;
+  outline: none;
+}
+
+/*------END Button-----*/
+
+.form{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formFondo{  
+  max-width: 50%;
+  top: 100px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 30px;
+}
+
+.contenedorTexto div{
+  margin-top: 10px;
+  width: 40%;
+  border: 2px solid rgb(183, 183, 183); /* Define un borde sólido de 2px de grosor y color negro */
+  border-radius: 5px;
+  padding: 10px; /* Añade un espacio interno alrededor del contenido del párrafo */
+}
+
+.contenedorTexto div p:first-child{
+  font-weight: bold;
+}
+
+.masInfo{
+ width:300px;
+ max-width: 30%;
+ margin-left: 30px;
+}
+
+#mensaje{
+  margin-left: 30px!important;
+}
+
+@media screen and (max-width: 600px) {
+  .socialmedia {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .socialmedia a i {
+      font-size: 1000%; /* Tamaño más grande para dispositivos móviles */
+      max-width: 200px; /* Ancho máximo para dispositivos móviles */
+      margin: 20px 0; /* Espaciado entre íconos para dispositivos móviles */
+  }
+  body {
+    font-size: 14px; /* Reducir el tamaño de fuente para pantallas más pequeñas */    
+  }
+  .contacto > p{
+    font-size: 50%;
+  }
+
+  .formFondo{  /*Tamaño del formulario*/
+    max-width: 100%;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contacto {
+    font-size: 200%;
+    padding-top: 100px;
+  }
+  .formFondo{  
+    max-width: 80%;
+  }
+}
