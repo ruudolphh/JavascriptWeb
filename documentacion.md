@@ -44,19 +44,21 @@ La página web presenta las siguientes características y funcionalidades princi
 - **Galería de Imágenes:** Presenta imágenes con efectos de hover y redimensionamiento en la sección de "Redes".
 - **Pie de Página (Footer):** Imagen de pie de página con tema arquitectonico.
 
+- **Funcionalidades Javascript**
+
 ## Capturas de Pantalla
 
 ### Boton Ocultar y Mostrar
-![Captura de Pantalla Cabecera](img/)
+![Captura de Pantalla Boton](img/documentacion_img4.jpg)
 
 ### Zoom "Mas información" en galería de Imágenes
-![Captura de Pantalla Galería de Imágenes](img/galery.jpg)
+![Captura de Pantalla Galería de Imágenes](img/documentacion_img3.jpg)
 
 ### Notificaciones emergentes
-![Captura de Pantalla Pie de Página](img/footer.png)
+![Captura de Pantalla Notificación](img/documentacion_img5.jpg)
 
 ### Formulario con validacion y mensajes de error emergentes
-![Captura de Pantalla Pie de Página](img/footer.png)
+![Captura de Pantalla Formulario Registro](img/documentacion_img1.jpg)
 
 ### Formulario de comentarios
-![Captura de Pantalla Pie de Página](img/footer.png)
+![Captura de Pantalla Comentarios](img/documentacion_img2.jpg)
