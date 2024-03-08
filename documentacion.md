@@ -4,12 +4,17 @@
 
 La estructura de archivos y carpetas de la página web es la siguiente:
 
-- index.html
+- home.html
 - diseño.html
 - redes.html
+- registro.html
+- opinion.html
 - style.css
+- home.js
+- diseño.js
+- registro.js
+- opinion.js
 - img/
-   - back.png
    - footer.png
    - img (1).jpg
    - img (2).jpg
@@ -18,6 +23,7 @@ La estructura de archivos y carpetas de la página web es la siguiente:
    - img (5).jpg
    - img (6).jpg
    - img (7).jpg
+   - principal.png
 
 ## Tecnologías Utilizadas
 
@@ -40,11 +46,17 @@ La página web presenta las siguientes características y funcionalidades princi
 
 ## Capturas de Pantalla
 
-### Cabecera (Header)
-![Captura de Pantalla Cabecera](img/header.jpg)
+### Boton Ocultar y Mostrar
+![Captura de Pantalla Cabecera](img/)
 
-### Galería de Imágenes
+### Zoom "Mas información" en galería de Imágenes
 ![Captura de Pantalla Galería de Imágenes](img/galery.jpg)
 
-### Pie de Página (Footer)
+### Notificaciones emergentes
+![Captura de Pantalla Pie de Página](img/footer.png)
+
+### Formulario con validacion y mensajes de error emergentes
+![Captura de Pantalla Pie de Página](img/footer.png)
+
+### Formulario de comentarios
 ![Captura de Pantalla Pie de Página](img/footer.png)
